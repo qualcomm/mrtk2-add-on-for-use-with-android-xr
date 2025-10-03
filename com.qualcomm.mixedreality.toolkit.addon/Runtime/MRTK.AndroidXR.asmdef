@@ -1,0 +1,21 @@
+{
+    "name": "Qualcomm.MixedReality.Toolkit.Providers.AndroidXR",
+    "rootNamespace": "Qualcomm.MixedReality.Toolkit.OpenXR",
+    "references": [
+        "Microsoft.MixedReality.Toolkit",
+        "Microsoft.MixedReality.Toolkit.Providers.OpenXR",
+        "Microsoft.MixedReality.Toolkit.Providers.XRSDK",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Hands",
+        "Unity.XR.OpenXR"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
