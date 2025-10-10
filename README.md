@@ -1,16 +1,13 @@
-**After repository creation:**
-- [ ] Update this `README.md`. Update the Project Name, description, and all sections. Remove this checklist.
-- [ ] If required, update `LICENSE.txt` and the License section with your project's approved license
-- [ ] Search this repo for "REPLACE-ME" and update all instances accordingly
-- [ ] Update `CONTRIBUTING.md` as needed
-- [ ] Review the workflows in `.github/workflows`, updating as needed. See https://docs.github.com/en/actions for information on what these files do and how they work.
-- [ ] Review and update the suggested Issue and PR templates as needed in `.github/ISSUE_TEMPLATE` and `.github/PULL_REQUEST_TEMPLATE`
+# MRTK2 Add-On for use with AndroidXR
 
-# Project Name
+This project adds input and interaction providers to MRTK2 to support additional OpenXR platforms, including Android XR devices.
 
-*\<update with your project name and a short description\>*
+Specifically, this package adds support for the following OpenXR extensions:
 
-Project that does ... implemented in ... runs on Qualcomm® *\<processor\>*
+* XR_ANDROID_hand_mesh
+* [XR_EXT_hand_interaction](https://registry.khronos.org/OpenXR/specs/1.1/html/xrspec.html#XR_EXT_hand_interaction)
+
+as well as migrating to use [Unity's XR Hands package](https://docs.unity3d.com/Packages/com.unity.xr.hands@1.6/manual/index.html) for hand joints.
 
 ## Branches
 
@@ -18,30 +15,25 @@ Project that does ... implemented in ... runs on Qualcomm® *\<processor\>*
 
 ## Requirements
 
-List requirements to run the project, how to install them, instructions to use docker container, etc...
+This project depends on [MRTK2](https://github.com/microsoft/MixedRealityToolkit-Unity/).
 
 ## Installation Instructions
 
-How to install the software itself.
+To install this package into your Unity project, you can import it as a Git URL. See [the Unity docs](https://docs.unity3d.com/Manual/upm-ui-giturl.html) for more information.
 
 ## Usage
 
-Describe how to use the project.
+See the [package README](./com.qualcomm.mixedreality.toolkit.addon/Documentation~/README.md) for information on setting up your project.
 
 ## Development
 
-How to develop new features/fixes for the software. Maybe different than "usage". Also provide details on how to contribute via a [CONTRIBUTING.md file](CONTRIBUTING.md).
+See the [CONTRIBUTING.md file](CONTRIBUTING.md) for contribution guidelines.
 
 ## Getting in Contact
 
-How to contact maintainers. E.g. GitHub Issues, GitHub Discussions could be indicated for many cases. However a mail list or list of Maintainer e-mails could be shared for other types of discussions. E.g.
-
 * [Report an Issue on GitHub](../../issues)
 * [Open a Discussion on GitHub](../../discussions)
-* [E-mail us](mailto:REPLACE-ME@qti.qualcomm.com) for general questions
 
 ## License
 
-*\<update with your project name and license\>*
-
-*\<REPLACE-ME\>* is licensed under the [BSD-3-clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
+MRTK2 Add-on for use with AndroidXR is licensed under the [MIT License](https://spdx.org/licenses/MIT.html). See [LICENSE.txt](LICENSE.txt) for the full license text.

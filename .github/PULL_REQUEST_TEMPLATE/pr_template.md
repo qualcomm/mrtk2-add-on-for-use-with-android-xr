@@ -1,27 +1,24 @@
-## Pull Request
+## Overview
 
-**Description**
-A clear and concise description of what this pull request does.
+> A clear and concise description of what this pull request does.
 
-**Related Issue**
-Link to the issue that this pull request addresses (e.g., `Fixes #123`).
+## Changes
 
-**Type of Change**
-Please delete options that are not relevant.
-- Bug fix (non-breaking change which fixes an issue)
-- New feature (non-breaking change which adds functionality)
-- Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- Documentation update
+- Fixes: #
 
-**Checklist**
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
+## Verification
 
-**Additional Context**
-Add any other context or screenshots about the pull request here.
+> This optional section is a place where you can detail the specific type of verification
+> you want from reviewers. For example, if you want reviewers to checkout the PR locally
+> and validate the functionality of specific scenarios, provide instructions
+> on the specific scenarios and what you want verified.
+>
+> If there are specific areas of concern or question feel free to highlight them here so
+> that reviewers can watch out for those issues.
+>
+> As a reviewer, it is possible to check out this change locally by using the following
+> commands (substituting {PR_ID} with the ID of this pull request):
+>
+> git fetch origin pull/{PR_ID}/head:name_of_local_branch
+>
+> git checkout name_of_local_branch
