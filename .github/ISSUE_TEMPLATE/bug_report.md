@@ -1,38 +1,44 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a bug report to help us improve
 title: ''
-labels: ''
+labels: Bug
 assignees: ''
 
 ---
 
-**Describe the bug**
+## Describe the bug
+
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+## To reproduce
+
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+## Expected behavior
+
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+## Screenshots
+
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Your setup (please complete the following information)
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+- Unity Version [e.g. 2018.3.11f1]
+- MRTK Version or Commit [e.g. v2.0] [e.g. [b026319](https://github.com/microsoft/MixedRealityToolkit-Unity/commit/b0263190f4cf7636ec4aacb08d4224bcc5ec5719)]
 
-**Additional context**
+## Target platform (please complete the following information)
+
+- Android XR
+- Snapdragon Spaces
+- HoloLens
+
+## Additional context
+
 Add any other context about the problem here.
