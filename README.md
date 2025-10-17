@@ -1,4 +1,4 @@
-# MRTK2 Add-On for use with AndroidXR
+# MRTK2 Add-on for use with Android XR
 
 This project adds input and interaction providers to MRTK2 to support additional OpenXR platforms, including Android XR devices.
 
@@ -36,4 +36,4 @@ See the [CONTRIBUTING.md file](CONTRIBUTING.md) for contribution guidelines.
 
 ## License
 
-MRTK2 Add-on for use with AndroidXR is licensed under the [MIT License](https://spdx.org/licenses/MIT.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
+MRTK2 Add-on for use with Android XR is licensed under the [MIT License](https://spdx.org/licenses/MIT.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
