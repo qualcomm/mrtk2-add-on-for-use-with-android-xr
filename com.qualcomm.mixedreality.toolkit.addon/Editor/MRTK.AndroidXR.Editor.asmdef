@@ -1,0 +1,20 @@
+{
+    "name": "Qualcomm.MixedReality.Toolkit.Providers.AndroidXR.Editor",
+    "rootNamespace": "Qualcomm.MixedReality.Toolkit.OpenXR.Editor",
+    "references": [
+        "Qualcomm.MixedReality.Toolkit.Providers.AndroidXR",
+        "Unity.XR.CoreUtils.Editor",
+        "Unity.XR.OpenXR"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
