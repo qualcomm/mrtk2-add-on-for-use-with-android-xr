@@ -27,6 +27,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Copy files and patch
+        shell: pwsh
+        run: |
+          Copy-Item -Path (Join-Path ${{ github.workspace }} "com.qualcomm.mixedreality.toolkit.addon" "Documentation~" "*") -Destination (Join-Path ${{ github.workspace }} "com.qualcomm.mixedreality.toolkit.addon") -Recurse -Force
+          $readmePath = (Join-Path ${{ github.workspace }} "README.md")
+          Set-Content -Path $readmePath -Value ((Get-Content $readmePath) -replace "com.qualcomm.mixedreality.toolkit.addon/Documentation~/README.md", "com.qualcomm.mixedreality.toolkit.addon/README.md")
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll

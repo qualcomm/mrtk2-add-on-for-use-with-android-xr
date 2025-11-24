@@ -27,13 +27,13 @@ See the [package README](./com.qualcomm.mixedreality.toolkit.addon/Documentation
 
 ## Development
 
-See the [CONTRIBUTING file](CONTRIBUTING.md) for contribution guidelines.
+See the [CONTRIBUTING page](CONTRIBUTING.md) for contribution guidelines.
 
 ## Getting in Contact
 
-* [Report an Issue on GitHub](../../issues)
-* [Open a Discussion on GitHub](../../discussions)
+* [Report an Issue on GitHub](https://github.com/qualcomm/mrtk2-add-on-for-use-with-android-xr/issues)
+* [Open a Discussion on GitHub](https://github.com/qualcomm/mrtk2-add-on-for-use-with-android-xr/discussions)
 
 ## License
 
-MRTK2 Add-on for use with Android XR is licensed under the [MIT License](https://spdx.org/licenses/MIT.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
+MRTK2 Add-on for use with Android XR is licensed under the [MIT License](https://spdx.org/licenses/MIT.html). See [LICENSE](LICENSE.md) for the full license text.
