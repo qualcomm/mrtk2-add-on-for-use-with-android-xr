@@ -24,24 +24,32 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Copy files and patch
         shell: pwsh
         run: |
-          Copy-Item -Path (Join-Path ${{ github.workspace }} "com.qualcomm.mixedreality.toolkit.addon" "Documentation~" "*") -Destination (Join-Path ${{ github.workspace }} "com.qualcomm.mixedreality.toolkit.addon") -Recurse -Force
-          $readmePath = (Join-Path ${{ github.workspace }} "README.md")
+          $docsPath = Join-Path ${{ github.workspace }} "docs"
+          New-Item -ItemType Directory -Path (Join-Path $docsPath "com.qualcomm.mixedreality.toolkit.addon") -Force | Out-Null
+          Copy-Item -Path (Join-Path ${{ github.workspace }} "com.qualcomm.mixedreality.toolkit.addon" "Documentation~" "*") -Destination (Join-Path $docsPath "com.qualcomm.mixedreality.toolkit.addon") -Recurse -Force
+          $readmePath = Join-Path ${{ github.workspace }} "README.md"
           Set-Content -Path $readmePath -Value ((Get-Content $readmePath) -replace "com.qualcomm.mixedreality.toolkit.addon/Documentation~/README.md", "com.qualcomm.mixedreality.toolkit.addon/README.md")
+          Copy-Item -Path (Join-Path ${{ github.workspace }} "*.md") -Destination $docsPath -Recurse -Force
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
+          source: ./docs
+          destination: ./docs/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs/_site
 
   # Deployment job
   deploy:
