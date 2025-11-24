@@ -4,8 +4,8 @@ This project adds input and interaction providers to MRTK2 to support additional
 
 Specifically, this package adds support for the following OpenXR extensions:
 
-* XR_ANDROID_hand_mesh
 * [XR_EXT_hand_interaction](https://registry.khronos.org/OpenXR/specs/1.1/html/xrspec.html#XR_EXT_hand_interaction)
+* [XR_ANDROID_hand_mesh](https://developer.android.com/develop/xr/openxr/extensions/XR_ANDROID_hand_mesh)
 
 as well as migrating to use [Unity's XR Hands package](https://docs.unity3d.com/Packages/com.unity.xr.hands@1.6/manual/index.html) for hand joints.
 
@@ -27,7 +27,7 @@ See the [package README](./com.qualcomm.mixedreality.toolkit.addon/Documentation
 
 ## Development
 
-See the [CONTRIBUTING.md file](CONTRIBUTING.md) for contribution guidelines.
+See the [CONTRIBUTING file](CONTRIBUTING.md) for contribution guidelines.
 
 ## Getting in Contact
 
