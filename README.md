@@ -19,7 +19,11 @@ This project depends on [MRTK2](https://github.com/microsoft/MixedRealityToolkit
 
 ## Installation Instructions
 
-To install this package into your Unity project, you can import it as a Git URL. See [the Unity docs](https://docs.unity3d.com/Manual/upm-ui-giturl.html) for more information.
+To install this package into your Unity project, you can import it as the following Git URL. See [the Unity docs](https://docs.unity3d.com/Manual/upm-ui-giturl.html) for more information.
+
+`https://github.com/qualcomm/mrtk2-add-on-for-use-with-android-xr.git?path=/com.qualcomm.mixedreality.toolkit.addon`
+
+You can also view the [releases page](https://github.com/qualcomm/mrtk2-add-on-for-use-with-android-xr/releases) and download the latest tarball or UnityPackage file there.
 
 ## Usage
 
