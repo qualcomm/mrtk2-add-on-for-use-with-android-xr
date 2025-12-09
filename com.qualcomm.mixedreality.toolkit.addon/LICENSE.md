@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.  
+Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
 SPDX-License-Identifier: MIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
