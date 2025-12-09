@@ -1,7 +1,7 @@
 {
   "name": "com.qualcomm.mixedreality.toolkit.addon",
   "displayName": "Mixed Reality Toolkit Add-on for use with Android XR",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "unity": "6000.0",
   "description": "Adds input and interaction providers to MRTK2 to support additional OpenXR platforms, including Android XR devices.",
   "keywords": [
