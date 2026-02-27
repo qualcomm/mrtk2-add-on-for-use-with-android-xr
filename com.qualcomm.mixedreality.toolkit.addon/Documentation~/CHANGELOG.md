@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2025-02-27
+
+* Adds support for XR_EXT_eye_gaze_interaction
+
 ## [1.0.0] - 2025-12-08
 
 * Initial release
