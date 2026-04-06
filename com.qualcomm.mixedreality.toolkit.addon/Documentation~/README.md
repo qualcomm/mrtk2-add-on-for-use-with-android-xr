@@ -13,6 +13,11 @@
 
     ![Update data providers](images/update-data-providers.png)
 
+1. (Optional) If using eye tracking for input: expand your input data providers and update your existing OpenXR XRSDK Eye Gaze Data Provider to the new OpenXREyeGazeProvider under the `Qualcomm.MixedReality.Toolkit.OpenXR` namespace.
+    1. This new data provider remains compatible with the same platforms supported by the previous provider, but now includes expanded support for new platforms, like Android XR.
+
+    ![Update data provider for eye tracking](images/update-data-providers-et.png)
+
 1. Expand your controller mappings (or clone the built-in OpenXRControllerMappingProfile, if you don't already have a custom profile for OpenXR) and run the Controller Mapping Profiles updater.
 
     ![Clone controller mapping profile](images/clone-controller-mapping-profile.png)
@@ -40,6 +45,7 @@
     1. For OpenXR spec-conformant use of this package, ensure the MRTK2 Input Focus feature is enabled.
         1. There is a Project Validation rule to enforce this which will cause a build error if not enabled.
     1. For hand interactions (airtap, grab, etc.), ensure the Hand Interaction Profile is enabled.
+    1. For eye tracking, ensure the Eye Gaze Interaction Profile is enabled.
     1. For hand joint tracking, ensure Hand Tracking Subsystem is checked.
     1. For hand mesh, ensure Android XR (Extensions): Hand Mesh and Android XR (Extensions): Session Management are checked.
 

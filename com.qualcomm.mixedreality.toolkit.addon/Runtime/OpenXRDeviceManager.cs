@@ -30,6 +30,13 @@ namespace Qualcomm.MixedReality.Toolkit.OpenXR
             BaseMixedRealityProfile profile = null) : base(inputSystem, name, priority, profile)
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
+            if (!OpenXRRuntime.IsExtensionEnabled("XR_EXT_hand_tracking") &&
+                !OpenXRRuntime.IsExtensionEnabled(AndroidXRHandMeshProvider.OpenXRExtension))
+            {
+                // The corresponding OpenXR extensions aren't enabled, so we don't need the permission
+                return;
+            }
+
             if (!Permission.HasUserAuthorizedPermission(HandTrackingPermission))
             {
                 PermissionCallbacks callbacks = new();
